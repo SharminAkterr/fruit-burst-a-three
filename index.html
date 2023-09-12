@@ -296,10 +296,10 @@
                             <input type="radio" name="rating-10" class="bg-light-red mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- modal  -->
-                        <button class="mt-2 text-light-red text-lg font-bold"
-                            onclick="my_modal_5.showModal()">Details</button>
-                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                            <div class="modal-box px-10">
+                        <button class="btn mt-2 text-light-red text-lg font-bold" onclick="my_modal_1.showModal()">open
+                            modal</button>
+                        <dialog id="my_modal_1" class="modal">
+                            <div class="modal-box">
                                 <img src="./images/fruit6.png" class="w-auto mx-auto" alt="">
                                 <h3 class="my-6 text-headingTextColor text-4xl font-bold">Apples</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing
@@ -328,7 +328,7 @@
                                     <input type="radio" name="rating-10"
                                         class="bg-light-red mask mask-star-2 mask-half-2" />
                                 </div>
-                                <div class="modal-action justify-center">
+                                <div class="modal-action">
                                     <form method="dialog">
                                         <!-- if there is a button in form, it will close the modal -->
                                         <button
@@ -366,10 +366,10 @@
                             <input type="radio" name="rating-10" class="bg-light-red mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- modal  -->
-                        <button class="mt-2 text-light-red text-lg font-bold"
-                            onclick="my_modal_5.showModal()">Details</button>
-                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                            <div class="modal-box px-10">
+                        <button class="btn mt-2 text-light-red text-lg font-bold" onclick="my_modal_2.showModal()">open
+                            modal</button>
+                        <dialog id="my_modal_2" class="modal">
+                            <div class="modal-box">
                                 <img src="./images/fruit6.png" class="w-auto mx-auto" alt="">
                                 <h3 class="my-6 text-headingTextColor text-4xl font-bold">Apples</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing
@@ -398,7 +398,7 @@
                                     <input type="radio" name="rating-10"
                                         class="bg-light-red mask mask-star-2 mask-half-2" />
                                 </div>
-                                <div class="modal-action justify-center">
+                                <div class="modal-action">
                                     <form method="dialog">
                                         <!-- if there is a button in form, it will close the modal -->
                                         <button
@@ -436,10 +436,10 @@
                             <input type="radio" name="rating-10" class="bg-light-red mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- modal  -->
-                        <button class="mt-2 text-light-red text-lg font-bold"
-                            onclick="my_modal_5.showModal()">Details</button>
-                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                            <div class="modal-box px-10">
+                        <button class="btn mt-2 text-light-red text-lg font-bold" onclick="my_modal_3.showModal()">open
+                            modal</button>
+                        <dialog id="my_modal_3" class="modal">
+                            <div class="modal-box">
                                 <img src="./images/fruit6.png" class="w-auto mx-auto" alt="">
                                 <h3 class="my-6 text-headingTextColor text-4xl font-bold">Apples</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing
@@ -468,7 +468,7 @@
                                     <input type="radio" name="rating-10"
                                         class="bg-light-red mask mask-star-2 mask-half-2" />
                                 </div>
-                                <div class="modal-action justify-center">
+                                <div class="modal-action">
                                     <form method="dialog">
                                         <!-- if there is a button in form, it will close the modal -->
                                         <button
@@ -506,10 +506,10 @@
                             <input type="radio" name="rating-10" class="bg-light-red mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- modal  -->
-                        <button class="mt-2 text-light-red text-lg font-bold"
-                            onclick="my_modal_5.showModal()">Details</button>
-                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                            <div class="modal-box px-10">
+                        <button class="btn mt-2 text-light-red text-lg font-bold" onclick="my_modal_4.showModal()">open
+                            modal</button>
+                        <dialog id="my_modal_4" class="modal">
+                            <div class="modal-box">
                                 <img src="./images/fruit6.png" class="w-auto mx-auto" alt="">
                                 <h3 class="my-6 text-headingTextColor text-4xl font-bold">Apples</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing
@@ -538,7 +538,7 @@
                                     <input type="radio" name="rating-10"
                                         class="bg-light-red mask mask-star-2 mask-half-2" />
                                 </div>
-                                <div class="modal-action justify-center">
+                                <div class="modal-action">
                                     <form method="dialog">
                                         <!-- if there is a button in form, it will close the modal -->
                                         <button
@@ -842,13 +842,53 @@
                 <img src="./images/logo.png" alt="">
                 <h1 class="text-4xl font-medium">Fruit Burst</h1>
             </div>
-            <div class="flex flex-wrap gap-10 lg:gap-14 justify-center">
-                <li class="list-none"><a class="text-lg font-semibold" href="">Home</a></li>
-                <li class="list-none"><a class="text-lg font-semibold" href="">About Us</a></li>
-                <li class="list-none"><a class="text-lg font-semibold" href="">Shop</a></li>
-                <li class="list-none"><a class="text-lg font-semibold" href="">All Fruits</a></li>
-                <li class="list-none"><a class="text-lg font-semibold" href="">Support</a></li>
-                <li class="list-none"><a class="text-lg font-semibold" href="">My Account</a></li>
+            <!-- option  -->
+            <div class="flex flex-wrap gap-10 lg:gap-14 justify-center items-center">
+                <li class="list-none"><a class="text-sm lg:text-lg font-semibold" href="">Home</a></li>
+                <li class="list-none"><a class="text-sm lg:text-lg font-semibold" href="">About Us</a></li>
+                <li class="list-none"><a class="text-sm lg:text-lg font-semibold" href="">Shop</a></li>
+                <li class="list-none"><a class="text-sm lg:text-lg font-semibold" href="">All Fruits</a></li>
+                <li class="list-none"><a class="text-sm lg:text-lg font-semibold" href="">Support</a></li>
+                <li class="list-none"><a class="text-sm lg:text-lg font-semibold" href="">My Account</a></li>
+            </div>
+            <!-- contact icon  -->
+            <div class="flex gap-10 lg:gap-14 justify-center items-center mt-6 md:mt-14">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <g clip-path="url(#clip0_43_537)">
+                            <path
+                                d="M23.8255 12.6168C23.8255 18.4258 19.5695 23.2405 14.0061 24.1133V15.9809H16.7178L17.2337 12.6168H14.0061V10.4338C14.0061 9.51327 14.457 8.61633 15.9027 8.61633H17.3701V5.75234C17.3701 5.75234 16.0381 5.52503 14.7648 5.52503C12.1067 5.52503 10.3692 7.13615 10.3692 10.0529V12.6168H7.41431V15.9809H10.3692V24.1133C4.8058 23.2405 0.549805 18.4258 0.549805 12.6168C0.549805 6.18966 5.76046 0.979004 12.1876 0.979004C18.6148 0.979004 23.8255 6.18966 23.8255 12.6168Z"
+                                fill="white" />
+                            <path
+                                d="M16.7175 15.981L17.2335 12.617H14.0058V10.4339C14.0058 9.51356 14.4567 8.61645 15.9024 8.61645H17.3699V5.75245C17.3699 5.75245 16.0381 5.52515 14.7648 5.52515C12.1064 5.52515 10.369 7.13626 10.369 10.053V12.617H7.41406V15.981H10.369V24.1134C10.9615 24.2063 11.5688 24.2548 12.1874 24.2548C12.806 24.2548 13.4133 24.2063 14.0058 24.1134V15.981H16.7175Z"
+                                fill="#1877F2" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_43_537">
+                                <rect width="23.2757" height="23.2757" fill="white"
+                                    transform="translate(0.550781 0.97876)" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="25" viewBox="0 0 34 25" fill="none">
+                        <path
+                            d="M32.6609 4.62057C32.2777 3.19647 31.1549 2.07392 29.731 1.69044C27.1296 0.978516 16.7239 0.978516 16.7239 0.978516C16.7239 0.978516 6.31838 0.978516 3.71695 1.6633C2.32049 2.04653 1.1703 3.19672 0.787073 4.62057C0.102539 7.22175 0.102539 12.6164 0.102539 12.6164C0.102539 12.6164 0.102539 18.0381 0.787073 20.6121C1.17055 22.036 2.2931 23.1588 3.7172 23.5423C6.34577 24.2542 16.7241 24.2542 16.7241 24.2542C16.7241 24.2542 27.1296 24.2542 29.731 23.5694C31.1551 23.1862 32.2777 22.0634 32.6611 20.6395C33.3457 18.0381 33.3457 12.6437 33.3457 12.6437C33.3457 12.6437 33.3731 7.22175 32.6609 4.62057Z"
+                            fill="white" />
+                        <path d="M13.4102 17.6003L22.0631 12.6165L13.4102 7.63281V17.6003Z" fill="#FF0000" />
+                    </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M21.5637 21.927V21.9263H21.5684V15.0972C21.5684 11.7565 20.8492 9.18286 16.9435 9.18286C15.0659 9.18286 13.806 10.2133 13.2916 11.1899H13.2373V9.49476H9.53418V21.9263H13.3903V15.7706C13.3903 14.1499 13.6975 12.5825 15.7046 12.5825C17.6823 12.5825 17.7116 14.4322 17.7116 15.8744V21.927H21.5637Z"
+                            fill="white" />
+                        <path d="M3.25586 9.49536H7.1166V21.9269H3.25586V9.49536Z" fill="white" />
+                        <path
+                            d="M5.18434 3.3064C3.94979 3.3064 2.94824 4.30795 2.94824 5.54249C2.94824 6.77703 3.94979 7.79953 5.18434 7.79953C6.41888 7.79953 7.42043 6.77703 7.42043 5.54249C7.4195 4.30795 6.41795 3.3064 5.18434 3.3064Z"
+                            fill="white" />
+                    </svg>
+                </a>
             </div>
         </aside>
     </footer>
